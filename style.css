@@ -5,6 +5,14 @@
     }
 }
 
+@media (max-width:450px){
+    #red-car{
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+
+}
+
 /**h1{
     display: grid;
     justify-content: center;
