@@ -7,8 +7,10 @@
 
 @media (max-width:450px){
     #red-car{
-        width: 10rem !important;
-        height: 10rem !important;
+        width: 5rem !important;
+        height: 5rem !important;
+        align-content: center;
+        margin-top: 3rem;
     }
 
 }
