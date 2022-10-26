@@ -1,7 +1,15 @@
-@media (max-width: 576px){
+@media screen (max-width: 600px){
     #red-car{
         width: 10rem !important;
         height: 10rem !important;
+        border-radius: 30px;
+    }
+    h1{
+        font-size: smaller;
+    }
+    .restos{
+        border-style: solid;
+        border-color: red !important;
     }
 }
 
