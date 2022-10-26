@@ -6,10 +6,13 @@
     }
     h1{
         font-size: smaller;
+<<<<<<< HEAD
     }
     .restos{
         border-style: solid;
         border-color: red !important;
+=======
+>>>>>>> eaac96ffc4a49aa0c7580370786803e78d644b6a
     }
 }
 
