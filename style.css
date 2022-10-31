@@ -7,10 +7,7 @@
     h1{
         font-size: smaller;
     }
-    .restos{
-        border-style: solid;
-        border-color: red !important;
-    }
+    
     h2{
         font-size: 10px !important;
     }
@@ -104,4 +101,36 @@ div{
   ul{
     list-style-type: none;
   }
-  
+
+  img{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+  }
+
+  button{
+    padding: 2rem;
+    border-radius: 30px;
+  }
+
+  #gallery2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px;
+    background-color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  #restos{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       letter-spacing: 5px;
+       font-weight: 600;
+       font-size: larger;
+       background-color: black;
+       color: white;
+       border-radius: 30px;
+       text-decoration: none;
+       padding: 5px;
+
+    }
