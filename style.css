@@ -53,8 +53,8 @@ div{
     font-size: 16px;
     font-weight: bold;
     
-  }
-  .image-block {
+}
+.image-block {
       border: 2px solid white ;
       background-color: black;
       padding: 0px;    
@@ -62,8 +62,8 @@ div{
       height:300px;
       text-align: center;
       vertical-align: bottom;
-  }
-  .image-block > p {
+}
+.image-block > p {
       width: 100%;
       height: 100%;
       font-weight: normal;
@@ -71,49 +71,50 @@ div{
       padding-top: 150px;
       background-color: rgba(3,3,3,0.0);
       color: rgba(6,6,6,0.0);
-  }
-  .image-block:hover > p {
+}
+.image-block:hover > p {
       background-color: rgba(3,3,3,0.5);    
       color: white;    
-  }
-  a{
+}
+a{
     text-decoration: underline;
     color: inherit;
-  }
+}
 
-  .testimonial-card .card-up {
+.testimonial-card .card-up {
     height: 120px;
     overflow: hidden;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
-  }
-  .testimonial-card .avatar {
+}
+.testimonial-card .avatar {
     width: 110px;
     margin-top: -60px;
     overflow: hidden;
     border: 3px solid #fff;
     border-radius: 50%;
-  }
+}
 
-  h2{
+h2{
     font-size: 20px;
-  }
-  ul{
+}
+ul{
     list-style-type: none;
-  }
+}
 
-  img{
+img{
     border-style: solid;
     border-color: black;
     border-width: 1px;
-  }
+}
 
-  button{
+button{
     padding: 2rem;
     border-radius: 30px;
-  }
+}
 
-  #gallery2{
+
+#gallery2{
     display: grid;
     justify-content: center;
     align-items: center;
@@ -121,8 +122,9 @@ div{
     background-color: white;
     padding-top:10px;
     padding-bottom: 10px;
-  }
-  #restos{
+}
+
+#restos{
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
        letter-spacing: 5px;
        font-weight: 600;
@@ -133,4 +135,8 @@ div{
        text-decoration: none;
        padding: 5px;
 
-    }
+}
+  
+#vw:hover{
+  transform: scale(-1, 1);
+  }
